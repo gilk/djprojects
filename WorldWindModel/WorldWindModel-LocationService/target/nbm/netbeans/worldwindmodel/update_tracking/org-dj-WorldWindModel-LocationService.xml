@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.dj.WorldWindModel.LocationService">
+    <module_version install_time="1350920794222" last="true" origin="installer" specification_version="1.0">
+        <file crc="47932525" name="config/Modules/org-dj-WorldWindModel-LocationService.xml"/>
+        <file crc="2758999489" name="modules/ext/commons-codec/commons-codec-1.2.jar"/>
+        <file crc="1640872803" name="modules/ext/commons-httpclient/commons-httpclient-3.1.jar"/>
+        <file crc="3420158953" name="modules/ext/commons-logging/commons-logging-1.0.4.jar"/>
+        <file crc="1460874415" name="modules/org-dj-WorldWindModel-LocationService.jar"/>
+    </module_version>
+</module>

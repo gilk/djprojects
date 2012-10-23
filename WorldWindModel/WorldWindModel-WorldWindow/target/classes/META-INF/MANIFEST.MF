@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Localizing-Bundle: org/dj/worldwindmodel/worldwindow/Bu
+ ndle.properties
+OpenIDE-Module-Specification-Version: 1.0
+OpenIDE-Module-Implementation-Version: 1.0-20121022
+OpenIDE-Module-Build-Version: 201210221546
+OpenIDE-Module: org.dj.WorldWindModel.WorldWindow
+OpenIDE-Module-Public-Packages: org.dj.worldwindmodel.worldwindow.api.
+ *
+OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
+OpenIDE-Module-Display-Category: org.dj
+OpenIDE-Module-Name: WorldWindModel-WorldWindow
+OpenIDE-Module-Short-Description: <undefined>
+OpenIDE-Module-Long-Description: <undefined>
+OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
+ n/1 > 1.14.1, org.dj.Service > 1.0, org.dj.WorldWindModel.Globe > 1.0
+ , org.dj.DomainModel > 1.0, org.openide.util.lookup > 8.15.1, org.dj.
+ WorldWind > 1.0, javolution > 5.5.1
+

@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Localizing-Bundle: org/dj/worldwindmodel/render/Bundle.
+ properties
+OpenIDE-Module-Specification-Version: 1.0
+OpenIDE-Module-Implementation-Version: 1.0-20121022
+OpenIDE-Module-Build-Version: 201210221600
+OpenIDE-Module: org.dj.WorldWindModel.Render
+OpenIDE-Module-Public-Packages: org.dj.worldwindmodel.render.api.*
+OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
+OpenIDE-Module-Display-Category: org.dj
+OpenIDE-Module-Name: WorldWindModel-Render
+OpenIDE-Module-Short-Description: <undefined>
+OpenIDE-Module-Long-Description: <undefined>
+X-Class-Path: ext/com.github.peichhorn/lombok-pg-0.11.3.jar
+Maven-Class-Path: com.github.peichhorn:lombok-pg:0.11.3
+OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
+ n/1 > 1.14.1, org.dj.WorldWindModel.Object > 1.0, org.dj.Service > 1.
+ 0, org.openide.util.lookup > 8.15.1, org.dj.WorldWind > 1.0, org.dj.W
+ orldWindModel.Globe > 1.0, org.dj.WorldWindModel.WorldWindow > 1.0, c
+ om.google.guava > 13.0.1, javolution > 5.5.1, org.dj.Listener > 1.0, 
+ org.dj.DomainModel > 1.0
+

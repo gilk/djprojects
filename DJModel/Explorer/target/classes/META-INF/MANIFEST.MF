@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Localizing-Bundle: org/dj/explorer/Bundle.properties
+OpenIDE-Module-Layer: org/dj/explorer/layer.xml
+OpenIDE-Module-Specification-Version: 1.0
+OpenIDE-Module-Implementation-Version: 1.0-20121022
+OpenIDE-Module-Build-Version: 201210220831
+OpenIDE-Module: org.dj.Explorer
+OpenIDE-Module-Public-Packages: org.dj.explorer.api.*
+OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
+OpenIDE-Module-Display-Category: org.dj
+OpenIDE-Module-Name: Explorer NetBeans Module
+OpenIDE-Module-Short-Description: <undefined>
+OpenIDE-Module-Long-Description: <undefined>
+OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
+ n/1 > 1.14.1, org.openide.explorer > 6.45.1, org.dj.Node > 1.0, org.d
+ j.DomainModel > 1.0, org.dj.DB > 1.0, org.dj.Editor > 1.0, org.dj.Ser
+ vice > 1.0, javolution > 5.5.1, org.dj.Property > 1.0, org.dj.Lookup 
+ > 1.0, org.openide.util.lookup > 8.15.1, org.openide.util > 8.25.1, o
+ rg.openide.nodes > 7.28.1, com.jcraft.jsch > 0.1.45, com.objectdb > 2
+ .4.3, com.jcraft.jzlib > 1.0.7
+

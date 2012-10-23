@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.dj.SolarScape.branding">
+    <module_version install_time="1351003236005" last="true" origin="installer" specification_version="1.0">
+        <file crc="2068975325" name="config/Modules/org-dj-SolarScape-branding.xml"/>
+        <file crc="2789217953" name="core/locale/core_solarscape.jar"/>
+        <file crc="1217545337" name="modules/locale/org-netbeans-core-windows_solarscape.jar"/>
+        <file crc="1186955071" name="modules/locale/org-netbeans-core_solarscape.jar"/>
+        <file crc="3922858046" name="modules/org-dj-SolarScape-branding.jar"/>
+    </module_version>
+</module>

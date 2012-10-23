@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.dj.SolarScape.Render">
+    <module_version install_time="1351002666972" last="true" origin="installer" specification_version="1.0">
+        <file crc="2652575589" name="config/Modules/org-dj-SolarScape-Render.xml"/>
+        <file crc="2346708998" name="modules/org-dj-SolarScape-Render.jar"/>
+    </module_version>
+</module>

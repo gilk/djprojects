@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Localizing-Bundle: org/dj/parallel/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+OpenIDE-Module-Implementation-Version: 1.0-20121022
+OpenIDE-Module-Build-Version: 201210220832
+OpenIDE-Module: org.dj.Parallel
+OpenIDE-Module-Public-Packages: org.dj.parallel.api.*
+OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
+OpenIDE-Module-Display-Category: org.dj
+OpenIDE-Module-Name: Parallel
+OpenIDE-Module-Short-Description: <undefined>
+OpenIDE-Module-Long-Description: <undefined>
+X-Class-Path: ext/edu.ucar/netcdf-4.2.20.jar ext/edu.ucar/unidataCommo
+ n-4.2.20.jar ext/net.jcip/jcip-annotations-1.0.jar ext/commons-httpcl
+ ient/commons-httpclient-3.1.jar ext/commons-logging/commons-logging-1
+ .0.4.jar ext/commons-codec/commons-codec-1.2.jar
+Maven-Class-Path: edu.ucar:netcdf:4.2.20 edu.ucar:unidataCommon:4.2.20
+  net.jcip:jcip-annotations:1.0 commons-httpclient:commons-httpclient:
+ 3.1 commons-logging:commons-logging:1.0.4 commons-codec:commons-codec
+ :1.2
+OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
+ n/1 > 1.14.1, javolution > 5.5.1, org.dj.FileUtilities > 1.0, com.goo
+ gle.guava > 13.0.1, org.dj.Index > 1.0, org.dj.Executor > 1.0, org.dj
+ .DomainModel > 1.0, slf4j.api > 1.6.1, org.openide.util.lookup > 8.15
+ .1, org.dj.Remote > 1.0, org.dj.Filter > 1.0, org.dj.IDGenerator > 1.
+ 0, org.dj.Listener > 1.0, org.dj.Parameter > 1.0, org.dj.Property > 1
+ .0
+

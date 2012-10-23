@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Localizing-Bundle: org/dj/parameter/Bundle.properties
+OpenIDE-Module-Layer: org/dj/parameter/layer.xml
+OpenIDE-Module-Specification-Version: 1.0
+OpenIDE-Module-Implementation-Version: 1.0-20121022
+OpenIDE-Module-Build-Version: 201210220831
+OpenIDE-Module: org.dj.Parameter
+OpenIDE-Module-Public-Packages: org.dj.parameter.api.*
+OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
+OpenIDE-Module-Display-Category: org.dj
+OpenIDE-Module-Name: Parameter NetBeans Module
+OpenIDE-Module-Short-Description: <undefined>
+OpenIDE-Module-Long-Description: <undefined>
+OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
+ n/1 > 1.14.1, org.dj.Listener > 1.0, org.dj.Filter > 1.0, javolution 
+ > 5.5.1
+

@@ -1,0 +1,58 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package org.dj.cookies;
+
+import org.dj.cookies.api.CookieManager;
+import org.dj.cookies.api.CookieManagerAbstr;
+import org.dj.cookies.api.CookieService;
+import org.dj.cookies.api.CookieServiceProvider;
+import org.dj.domainmodel.api.DJNodeObject;
+import org.dj.domainmodel.api.DJObject;
+import org.dj.service.api.ServiceProviderAbstr;
+import org.openide.util.lookup.ServiceProvider;
+
+/**
+ *
+ * @author djabry
+ */
+
+@ServiceProvider (service = CookieServiceProvider.class)
+public class AddCookieService extends ServiceProviderAbstr<CookieManager,DJObject> implements CookieServiceProvider{
+
+    @Override
+    public boolean filter(DJObject obj) {
+        if(obj instanceof DJNodeObject.Source && obj instanceof DJNodeObject){
+            
+            return true;
+        }
+        
+        return false;
+    }
+
+    @Override
+    public CookieManager createObject(DJObject obj) {
+       return new AddCookieManager((DJNodeObject)obj);
+    }
+
+   
+    
+    public class AddCookieManager extends CookieManagerAbstr{
+
+
+    public AddCookieManager(DJNodeObject obj){
+        
+        super(obj,new AddCookieImpl(obj));
+        
+        
+    }
+    
+
+    
+}
+
+    
+   
+    
+}

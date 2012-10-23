@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Install: org/dj/jogl/Installer.class
+OpenIDE-Module-Localizing-Bundle: org/dj/jogl/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+OpenIDE-Module-Implementation-Version: 1.0-20121022
+OpenIDE-Module-Build-Version: 201210221236
+OpenIDE-Module: org.dj.JOGL
+OpenIDE-Module-Public-Packages: fr.iscpif.**, javax.media.**, com.sun.
+ opengl.**
+OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
+OpenIDE-Module-Display-Category: org.dj
+OpenIDE-Module-Name: JOGL
+OpenIDE-Module-Short-Description: <undefined>
+OpenIDE-Module-Long-Description: <undefined>
+X-Class-Path: ext/fr.iscpif/jogl-1.0-SNAPSHOT.jar ext/org.processing/j
+ ogl-1.5.r0196.jar ext/org.processing/gluegen-rt-1.5.r0196.jar
+Maven-Class-Path: fr.iscpif:jogl:1.0-20111005.123940-4 org.processing:
+ jogl:1.5.r0196 org.processing:gluegen-rt:1.5.r0196
+OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
+ n/1 > 1.14.1, org.openide.modules > 7.32.1, org.openide.util > 8.25.1
+

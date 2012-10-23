@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="DJModel">
+            <file name="org-dj-actions-RemoveAction.instance">
+                <!--org.dj.actions.RemoveAction-->
+                <attr
+                    bundlevalue="org.dj.actions.Bundle#CTL_RemoveAction" name="displayName"/>
+                <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                <attr name="type" stringvalue="org.dj.cookies.api.RemoveCookie"/>
+                <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                <attr name="injectable" stringvalue="org.dj.actions.RemoveAction"/>
+                <attr name="selectionType" stringvalue="ANY"/>
+                <attr name="iconBase" stringvalue="org/dj/actions/Remove.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="org-dj-actions-AddAction.instance">
+                <!--org.dj.actions.AddAction-->
+                <attr bundlevalue="org.dj.actions.Bundle#CTL_AddAction" name="displayName"/>
+                <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                <attr name="type" stringvalue="org.dj.cookies.api.AddCookie"/>
+                <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                <attr name="injectable" stringvalue="org.dj.actions.AddAction"/>
+                <attr name="selectionType" stringvalue="ANY"/>
+                <attr name="iconBase" stringvalue="org/dj/actions/add.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="org-dj-actions-RunAction.instance">
+                <!--org.dj.actions.RunAction-->
+                <attr bundlevalue="org.dj.actions.Bundle#CTL_RunAction" name="displayName"/>
+                <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                <attr name="type" stringvalue="org.dj.cookies.api.RunCookie"/>
+                <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                <attr name="injectable" stringvalue="org.dj.actions.RunAction"/>
+                <attr name="selectionType" stringvalue="ANY"/>
+                <attr name="iconBase" stringvalue="org/dj/actions/play.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="org-dj-actions-EditAction.instance">
+                <!--org.dj.actions.EditAction-->
+                <attr bundlevalue="org.dj.actions.Bundle#CTL_EditAction" name="displayName"/>
+                <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                <attr name="type" stringvalue="org.dj.editor.api.DJEditCookie"/>
+                <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                <attr name="injectable" stringvalue="org.dj.actions.EditAction"/>
+                <attr name="selectionType" stringvalue="ANY"/>
+                <attr name="iconBase" stringvalue="org/dj/actions/edit.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Edit">
+            <file name="org-dj-actions-RemoveAction.shadow">
+                <!--org.dj.actions.RemoveAction-->
+                <attr name="originalFile" stringvalue="Actions/DJModel/org-dj-actions-RemoveAction.instance"/>
+                <attr intvalue="150" name="position"/>
+            </file>
+            <file name="org-dj-actions-RemoveAction-separatorAfter.instance">
+                <!--org.dj.actions.RemoveAction-->
+                <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                <attr intvalue="175" name="position"/>
+            </file>
+            <file name="org-dj-actions-AddAction.shadow">
+                <!--org.dj.actions.AddAction-->
+                <attr name="originalFile" stringvalue="Actions/DJModel/org-dj-actions-AddAction.instance"/>
+                <attr intvalue="100" name="position"/>
+            </file>
+            <file name="org-dj-actions-AddAction-separatorBefore.instance">
+                <!--org.dj.actions.AddAction-->
+                <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                <attr intvalue="50" name="position"/>
+            </file>
+            <file name="org-dj-actions-RunAction.shadow">
+                <!--org.dj.actions.RunAction-->
+                <attr name="originalFile" stringvalue="Actions/DJModel/org-dj-actions-RunAction.instance"/>
+                <attr intvalue="162" name="position"/>
+            </file>
+            <file name="org-dj-actions-EditAction.shadow">
+                <!--org.dj.actions.EditAction-->
+                <attr name="originalFile" stringvalue="Actions/DJModel/org-dj-actions-EditAction.instance"/>
+                <attr intvalue="156" name="position"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Toolbars">
+        <folder name="File">
+            <file name="org-dj-actions-RemoveAction.shadow">
+                <!--org.dj.actions.RemoveAction-->
+                <attr name="originalFile" stringvalue="Actions/DJModel/org-dj-actions-RemoveAction.instance"/>
+                <attr intvalue="600" name="position"/>
+            </file>
+            <file name="org-dj-actions-AddAction.shadow">
+                <!--org.dj.actions.AddAction-->
+                <attr name="originalFile" stringvalue="Actions/DJModel/org-dj-actions-AddAction.instance"/>
+                <attr intvalue="500" name="position"/>
+            </file>
+            <file name="org-dj-actions-RunAction.shadow">
+                <!--org.dj.actions.RunAction-->
+                <attr name="originalFile" stringvalue="Actions/DJModel/org-dj-actions-RunAction.instance"/>
+                <attr intvalue="700" name="position"/>
+            </file>
+            <file name="org-dj-actions-EditAction.shadow">
+                <!--org.dj.actions.EditAction-->
+                <attr name="originalFile" stringvalue="Actions/DJModel/org-dj-actions-EditAction.instance"/>
+                <attr intvalue="650" name="position"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

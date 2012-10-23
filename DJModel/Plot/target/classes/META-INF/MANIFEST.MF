@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Localizing-Bundle: org/dj/plot/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+OpenIDE-Module-Implementation-Version: 1.0-20121022
+OpenIDE-Module-Build-Version: 201210220832
+OpenIDE-Module: org.dj.Plot
+OpenIDE-Module-Public-Packages: org.dj.plot.api.*
+OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
+OpenIDE-Module-Display-Category: org.dj
+OpenIDE-Module-Name: Plot
+OpenIDE-Module-Short-Description: <undefined>
+OpenIDE-Module-Long-Description: <undefined>
+X-Class-Path: ext/jfree/jfreechart-1.0.13.jar ext/jfree/jcommon-1.0.16
+ .jar
+Maven-Class-Path: jfree:jfreechart:1.0.13 jfree:jcommon:1.0.16
+OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
+ n/1 > 1.14.1, org.dj.DomainModel > 1.0, org.openide.util > 8.25.1, co
+ m.google.guava > 13.0.1, org.dj.Service > 1.0, org.openide.util.looku
+ p > 8.15.1
+

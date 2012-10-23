@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Localizing-Bundle: org/dj/solarscape/render/Bundle.prop
+ erties
+OpenIDE-Module-Specification-Version: 1.0
+OpenIDE-Module-Implementation-Version: 1.0-20121023
+OpenIDE-Module-Build-Version: 201210231431
+OpenIDE-Module: org.dj.SolarScape.Render
+OpenIDE-Module-Public-Packages: -
+OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
+OpenIDE-Module-Display-Category: org.dj
+OpenIDE-Module-Name: SolarScape-Render
+OpenIDE-Module-Short-Description: <undefined>
+OpenIDE-Module-Long-Description: <undefined>
+OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
+ n/1 > 1.14.1, org.dj.WorldWindModel.Render > 1.0, org.dj.SolarScape.D
+ ata > 1.0, com.google.guava > 13.0.1, org.dj.WorldWindModel.Object > 
+ 1.0, org.dj.DomainModel > 1.0, org.dj.Service > 1.0, javolution > 5.5
+ .1, org.dj.WorldWind > 1.0
+

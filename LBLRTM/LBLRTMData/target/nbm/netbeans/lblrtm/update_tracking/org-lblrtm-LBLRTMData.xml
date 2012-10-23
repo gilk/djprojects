@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.lblrtm.LBLRTMData">
+    <module_version install_time="1349808485518" last="true" origin="installer" specification_version="1.0">
+        <file crc="2013949567" name="config/Modules/org-lblrtm-LBLRTMData.xml"/>
+        <file crc="2758999489" name="modules/ext/commons-codec/commons-codec-1.2.jar"/>
+        <file crc="1640872803" name="modules/ext/commons-httpclient/commons-httpclient-3.1.jar"/>
+        <file crc="3420158953" name="modules/ext/commons-logging/commons-logging-1.0.4.jar"/>
+        <file crc="2163213852" name="modules/ext/edu.ucar/netcdf-4.2.20.jar"/>
+        <file crc="1827870201" name="modules/ext/edu.ucar/unidataCommon-4.2.20.jar"/>
+        <file crc="1039719747" name="modules/ext/javax.measure/jsr-275-0.9.1.jar"/>
+        <file crc="3771856038" name="modules/ext/net.jcip/jcip-annotations-1.0.jar"/>
+        <file crc="3951513081" name="modules/org-lblrtm-LBLRTMData.jar"/>
+    </module_version>
+</module>

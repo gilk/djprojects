@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Localizing-Bundle: org/dj/solarscape/data/Bundle.proper
+ ties
+OpenIDE-Module-Specification-Version: 1.0
+OpenIDE-Module-Implementation-Version: 1.0-20121023
+OpenIDE-Module-Build-Version: 201210231451
+OpenIDE-Module: org.dj.SolarScape.Data
+OpenIDE-Module-Public-Packages: org.dj.solarscape.data.api.*
+OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
+OpenIDE-Module-Display-Category: org.dj
+OpenIDE-Module-Name: SolarScape-Data
+OpenIDE-Module-Short-Description: <undefined>
+OpenIDE-Module-Long-Description: <undefined>
+OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
+ n/1 > 1.14.1, org.dj.WorldWindModel.Object > 1.0, org.dj.DB > 1.0, or
+ g.dj.WorldWind > 1.0, org.dj.Filter > 1.0, org.dj.WorldWindModel.Loca
+ tionService > 1.0, org.dj.WorldWindModel.Globe > 1.0, org.dj.Property
+  > 1.0, org.openide.util.lookup > 8.15.1, javolution > 5.5.1, org.ope
+ nide.util > 8.25.1, org.dj.DomainModel > 1.0, org.dj.Parameter > 1.0,
+  org.dj.Listener > 1.0, org.dj.Executor > 1.0, org.openide.filesystem
+ s > 7.62.1, org.dj.Icon > 1.0, com.objectdb > 2.4.4, org.netbeans.api
+ .progress/1 > 1.28.1, org.dj.FileUtilities > 1.0, com.google.guava > 
+ 13.0.1
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.dj.FileUtilities">
+    <module_version install_time="1350894692582" last="true" origin="installer" specification_version="1.0">
+        <file crc="145777482" name="config/Modules/org-dj-FileUtilities.xml"/>
+        <file crc="2285450018" name="modules/org-dj-FileUtilities.jar"/>
+    </module_version>
+</module>

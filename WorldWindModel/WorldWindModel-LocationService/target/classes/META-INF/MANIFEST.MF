@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Localizing-Bundle: org/dj/worldwindmodel/locationservic
+ e/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+OpenIDE-Module-Implementation-Version: 1.0-20121022
+OpenIDE-Module-Build-Version: 201210221546
+OpenIDE-Module: org.dj.WorldWindModel.LocationService
+OpenIDE-Module-Public-Packages: org.dj.worldwindmodel.locationservice.
+ api.*
+OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
+OpenIDE-Module-Display-Category: org.dj
+OpenIDE-Module-Name: WorldWindModel-LocationService
+OpenIDE-Module-Short-Description: <undefined>
+OpenIDE-Module-Long-Description: <undefined>
+X-Class-Path: ext/commons-httpclient/commons-httpclient-3.1.jar ext/co
+ mmons-logging/commons-logging-1.0.4.jar ext/commons-codec/commons-cod
+ ec-1.2.jar
+Maven-Class-Path: commons-httpclient:commons-httpclient:3.1 commons-lo
+ gging:commons-logging:1.0.4 commons-codec:commons-codec:1.2
+OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
+ n/1 > 1.14.1, org.dj.WorldWind > 1.0, org.apache.commons.lang > 2.4, 
+ com.google.guava > 13.0.1, org.openide.util > 8.25.1
+

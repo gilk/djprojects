@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="SolarScapeGlobeTopComponent.settings">
+                <!--org.dj.solarscape.globe.SolarScapeGlobeTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.dj.solarscape.globe.SolarScapeGlobeTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="SolarScapeGlobeTopComponent.wstcref">
+                    <!--org.dj.solarscape.globe.SolarScapeGlobeTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="SolarScapeGlobeTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="org-dj-solarscape-globe-SolarScapeGlobeTopComponent.instance">
+                <!--org.dj.solarscape.globe.SolarScapeGlobeTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="org.dj.solarscape.globe.SolarScapeGlobeTopComponent"/>
+                <attr name="preferredID" stringvalue="SolarScapeGlobeTopComponent"/>
+                <attr
+                    bundlevalue="org.dj.solarscape.globe.Bundle#CTL_SolarScapeGlobeAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="org-dj-solarscape-globe-SolarScapeGlobeTopComponent.shadow">
+                <!--org.dj.solarscape.globe.SolarScapeGlobeTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/org-dj-solarscape-globe-SolarScapeGlobeTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="org_dj_solarscape_globe">
+                <file name="SolarScapeGlobe" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.dj.solarscape.globe.SolarScapeGlobeTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.dj.solarscape.globe//SolarScapeGlobe//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="org">
+                <folder name="dj">
+                    <folder name="solarscape">
+                        <folder name="globe">
+                            <file name="SolarScapeGlobeTopComponent">
+                                <!--org.dj.solarscape.globe.SolarScapeGlobeTopComponent-->
+                                <attr name="settings.providerPath" stringvalue="xml/lookups//org_dj_solarscape_globe/SolarScapeGlobe.instance"/>
+                            </file>
+                        </folder>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="org_dj_solarscape_globe">
+                <file name="SolarScapeGlobe.instance">
+                    <!--org.dj.solarscape.globe.SolarScapeGlobeTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.dj.solarscape.globe.SolarScapeGlobeTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.dj.solarscape.globe.SolarScapeGlobeTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

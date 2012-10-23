@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.dj.SolarScape.Globe">
+    <module_version install_time="1351002705072" last="true" origin="installer" specification_version="1.0">
+        <file crc="208490019" name="config/Modules/org-dj-SolarScape-Globe.xml"/>
+        <file crc="1505487118" name="modules/org-dj-SolarScape-Globe.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.dj.Cookies">
+    <module_version install_time="1350894699506" last="true" origin="installer" specification_version="1.0">
+        <file crc="3881289092" name="config/Modules/org-dj-Cookies.xml"/>
+        <file crc="3522665010" name="modules/org-dj-Cookies.jar"/>
+    </module_version>
+</module>

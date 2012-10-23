@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.dj.Remote">
+    <module_version install_time="1351002703903" last="true" origin="installer" specification_version="1.0">
+        <file crc="321804912" name="config/Modules/org-dj-Remote.xml"/>
+        <file crc="3155758200" name="modules/org-dj-Remote.jar"/>
+    </module_version>
+</module>

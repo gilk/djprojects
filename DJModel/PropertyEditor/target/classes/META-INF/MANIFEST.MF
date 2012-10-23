@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Localizing-Bundle: org/dj/propertyeditor/Bundle.propert
+ ies
+OpenIDE-Module-Specification-Version: 1.0
+OpenIDE-Module-Implementation-Version: 1.0-20121022
+OpenIDE-Module-Build-Version: 201210220832
+OpenIDE-Module: org.dj.PropertyEditor
+OpenIDE-Module-Public-Packages: org.dj.propertyeditor.api.*
+OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
+OpenIDE-Module-Display-Category: org.dj
+OpenIDE-Module-Name: PropertyEditor
+OpenIDE-Module-Short-Description: <undefined>
+OpenIDE-Module-Long-Description: <undefined>
+OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
+ n/1 > 1.14.1, org.openide.util.lookup > 8.15.1, org.openide.explorer 
+ > 6.45.1, org.dj.DomainModel > 1.0, org.dj.Editor > 1.0, org.openide.
+ modules > 7.32.1
+

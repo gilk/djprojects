@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Localizing-Bundle: org/dj/fileutilities/Bundle.properti
+ es
+OpenIDE-Module-Specification-Version: 1.0
+OpenIDE-Module-Implementation-Version: 1.0-20121022
+OpenIDE-Module-Build-Version: 201210220831
+OpenIDE-Module: org.dj.FileUtilities
+OpenIDE-Module-Public-Packages: org.dj.fileutilities.api.*
+OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
+OpenIDE-Module-Display-Category: org.dj
+OpenIDE-Module-Name: FileUtilities
+OpenIDE-Module-Short-Description: <undefined>
+OpenIDE-Module-Long-Description: <undefined>
+OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
+ n/1 > 1.14.1, org.dj.Remote > 1.0, org.netbeans.api.progress/1 > 1.28
+ .1, org.openide.modules > 7.32.1, com.jcraft.jsch > 0.1.45, com.jcraf
+ t.jzlib > 1.0.7, javolution > 5.5.1, org.openide.awt > 7.46.1, org.op
+ enide.filesystems > 7.62.1, org.openide.util > 8.25.1, org.openide.ut
+ il.lookup > 8.15.1
+

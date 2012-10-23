@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Localizing-Bundle: org/dj/icon/Bundle.properties
+OpenIDE-Module-Layer: org/dj/icon/layer.xml
+OpenIDE-Module-Specification-Version: 1.0
+OpenIDE-Module-Implementation-Version: 1.0-20121022
+OpenIDE-Module-Build-Version: 201210220831
+OpenIDE-Module: org.dj.Icon
+OpenIDE-Module-Public-Packages: org.dj.icon.api.*
+OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
+OpenIDE-Module-Display-Category: org.dj
+OpenIDE-Module-Name: Icon NetBeans Module
+OpenIDE-Module-Short-Description: <undefined>
+OpenIDE-Module-Long-Description: <undefined>
+OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
+ n/1 > 1.8.1, org.openide.util.lookup > 8.6.1, org.openide.util > 8.14
+ .1, org.dj.Filter > 1.0, org.dj.DomainModel > 1.0, org.dj.Service > 1
+ .0
+

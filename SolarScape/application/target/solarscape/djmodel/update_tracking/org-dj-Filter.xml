@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.dj.Filter">
+    <module_version install_time="1351002703970" last="true" origin="installer" specification_version="1.0">
+        <file crc="2777918676" name="config/Modules/org-dj-Filter.xml"/>
+        <file crc="3571695439" name="modules/org-dj-Filter.jar"/>
+    </module_version>
+</module>

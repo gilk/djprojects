@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Install: org/dj/worldwind/Installer.class
+OpenIDE-Module-Localizing-Bundle: org/dj/worldwind/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+OpenIDE-Module-Implementation-Version: 1.0-20121022
+OpenIDE-Module-Build-Version: 201210221236
+OpenIDE-Module: org.dj.WorldWind
+OpenIDE-Module-Public-Packages: gov.nasa.**
+OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
+OpenIDE-Module-Display-Category: org.dj
+OpenIDE-Module-Name: WorldWind
+OpenIDE-Module-Short-Description: <undefined>
+OpenIDE-Module-Long-Description: <undefined>
+X-Class-Path: ext/gov.nasa/worldwind-1.4.jar ext/gov.nasa/WorldWindX-1
+ .4.jar
+Maven-Class-Path: gov.nasa:worldwind:1.4 gov.nasa:WorldWindX:1.4
+OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
+ n/1 > 1.14.1, org.openide.modules > 7.32.1, org.openide.util > 8.25.1
+ , org.dj.JOGL > 1.0
+

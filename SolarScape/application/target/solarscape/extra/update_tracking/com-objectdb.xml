@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="com.objectdb">
+    <module_version install_time="1351002705444" last="true" origin="installer" specification_version="2.4.4">
+        <file crc="966493497" name="config/Modules/com-objectdb.xml"/>
+        <file crc="1208918269" name="modules/com-objectdb.jar"/>
+    </module_version>
+</module>

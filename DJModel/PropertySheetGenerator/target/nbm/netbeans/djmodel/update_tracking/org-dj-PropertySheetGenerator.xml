@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.dj.PropertySheetGenerator">
+    <module_version install_time="1350894684177" last="true" origin="installer" specification_version="1.0">
+        <file crc="1085755261" name="config/Modules/org-dj-PropertySheetGenerator.xml"/>
+        <file crc="2392333084" name="modules/org-dj-PropertySheetGenerator.jar"/>
+    </module_version>
+</module>

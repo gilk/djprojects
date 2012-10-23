@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.dj.WorldWindModel.WorldWindow">
+    <module_version install_time="1351002690330" last="true" origin="installer" specification_version="1.0">
+        <file crc="634976744" name="config/Modules/org-dj-WorldWindModel-WorldWindow.xml"/>
+        <file crc="53561994" name="modules/org-dj-WorldWindModel-WorldWindow.jar"/>
+    </module_version>
+</module>

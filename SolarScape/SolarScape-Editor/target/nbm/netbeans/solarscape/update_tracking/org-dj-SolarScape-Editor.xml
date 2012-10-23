@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.dj.SolarScape.Editor">
+    <module_version install_time="1351002672732" last="true" origin="installer" specification_version="1.0">
+        <file crc="297732243" name="config/Modules/org-dj-SolarScape-Editor.xml"/>
+        <file crc="1039381040" name="modules/org-dj-SolarScape-Editor.jar"/>
+    </module_version>
+</module>

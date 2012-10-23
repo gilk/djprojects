@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.dj.WorldWindModel.Globe">
+    <module_version install_time="1350920747584" last="true" origin="installer" specification_version="1.0">
+        <file crc="3455576006" name="config/Modules/org-dj-WorldWindModel-Globe.xml"/>
+        <file crc="55986983" name="modules/org-dj-WorldWindModel-Globe.jar"/>
+    </module_version>
+</module>

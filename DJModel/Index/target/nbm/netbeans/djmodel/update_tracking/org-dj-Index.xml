@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.dj.Index">
+    <module_version install_time="1350894726376" last="true" origin="installer" specification_version="1.0">
+        <file crc="1926799015" name="config/Modules/org-dj-Index.xml"/>
+        <file crc="3439149212" name="modules/org-dj-Index.jar"/>
+    </module_version>
+</module>

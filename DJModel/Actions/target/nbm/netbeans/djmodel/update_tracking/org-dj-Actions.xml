@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.dj.Actions">
+    <module_version install_time="1350894721011" last="true" origin="installer" specification_version="1.0">
+        <file crc="1556001216" name="config/Modules/org-dj-Actions.xml"/>
+        <file crc="3656160519" name="modules/org-dj-Actions.jar"/>
+    </module_version>
+</module>

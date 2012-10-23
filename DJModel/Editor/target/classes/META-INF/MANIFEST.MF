@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Localizing-Bundle: org/dj/editor/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+OpenIDE-Module-Implementation-Version: 1.0-20121022
+OpenIDE-Module-Build-Version: 201210220831
+OpenIDE-Module: org.dj.Editor
+OpenIDE-Module-Public-Packages: org.dj.editor.api.*
+OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
+OpenIDE-Module-Display-Category: org.dj
+OpenIDE-Module-Name: Editor
+OpenIDE-Module-Short-Description: <undefined>
+OpenIDE-Module-Long-Description: <undefined>
+OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
+ n/1 > 1.14.1, org.dj.Cookies > 1.0, org.openide.windows > 6.55.1, org
+ .dj.DomainModel > 1.0, org.dj.Listener > 1.0, org.dj.Property > 1.0, 
+ org.dj.Parameter > 1.0, org.dj.Filter > 1.0, org.dj.Service > 1.0, or
+ g.openide.util.lookup > 8.15.1, javolution > 5.5.1
+

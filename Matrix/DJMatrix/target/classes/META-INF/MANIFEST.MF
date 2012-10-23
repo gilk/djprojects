@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Localizing-Bundle: org/dj/matrix/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+OpenIDE-Module-Implementation-Version: 1.0-20121009
+OpenIDE-Module-Build-Version: 201210091941
+OpenIDE-Module: org.dj.DJMatrix
+OpenIDE-Module-Public-Packages: org.dj.matrix.api.*
+OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
+OpenIDE-Module-Display-Category: org.dj
+OpenIDE-Module-Name: DJMatrix
+OpenIDE-Module-Short-Description: <undefined>
+OpenIDE-Module-Long-Description: <undefined>
+X-Class-Path: ext/com.googlecode.matrix-toolkits-java/mtj-0.9.14.jar e
+ xt/com.googlecode.netlib-java/netlib-java-0.9.3.jar ext/net.sourcefor
+ ge.f2j/arpack_combined_all-0.1.jar ext/edu.ucar/netcdf-4.2.20.jar ext
+ /edu.ucar/unidataCommon-4.2.20.jar ext/net.jcip/jcip-annotations-1.0.
+ jar ext/commons-httpclient/commons-httpclient-3.1.jar ext/commons-log
+ ging/commons-logging-1.0.4.jar ext/commons-codec/commons-codec-1.2.ja
+ r ext/com.googlecode.efficient-java-matrix-library/ejml-0.20.jar
+Maven-Class-Path: com.googlecode.matrix-toolkits-java:mtj:0.9.14 com.g
+ ooglecode.netlib-java:netlib-java:0.9.3 net.sourceforge.f2j:arpack_co
+ mbined_all:0.1 edu.ucar:netcdf:4.2.20 edu.ucar:unidataCommon:4.2.20 n
+ et.jcip:jcip-annotations:1.0 commons-httpclient:commons-httpclient:3.
+ 1 commons-logging:commons-logging:1.0.4 commons-codec:commons-codec:1
+ .2 com.googlecode.efficient-java-matrix-library:ejml:0.20
+OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
+ n/1 > 1.14.1, com.google.guava > 13.0.1, org.dj.Index > 1.0, org.open
+ ide.util.lookup > 8.15.1, org.openide.util > 8.25.1, org.dj.PropertyE
+ ditor > 1.0, org.dj.Plot > 1.0, slf4j.api > 1.6.1, org.openide.awt > 
+ 7.46.1, org.openide.filesystems > 7.62.1, org.dj.DomainModel > 1.0, o
+ rg.dj.Property > 1.0, javolution > 5.5.1, org.dj.Editor > 1.0, org.dj
+ .FileUtilities > 1.0, org.openide.windows > 6.55.1
+

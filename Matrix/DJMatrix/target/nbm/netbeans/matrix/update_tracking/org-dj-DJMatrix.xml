@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.dj.DJMatrix">
+    <module_version install_time="1349811687953" last="true" origin="installer" specification_version="1.0">
+        <file crc="813552820" name="config/Modules/org-dj-DJMatrix.xml"/>
+        <file crc="1404580624" name="modules/ext/com.googlecode.efficient-java-matrix-library/ejml-0.20.jar"/>
+        <file crc="2925048822" name="modules/ext/com.googlecode.matrix-toolkits-java/mtj-0.9.14.jar"/>
+        <file crc="1441999033" name="modules/ext/com.googlecode.netlib-java/netlib-java-0.9.3.jar"/>
+        <file crc="2758999489" name="modules/ext/commons-codec/commons-codec-1.2.jar"/>
+        <file crc="1640872803" name="modules/ext/commons-httpclient/commons-httpclient-3.1.jar"/>
+        <file crc="3420158953" name="modules/ext/commons-logging/commons-logging-1.0.4.jar"/>
+        <file crc="2163213852" name="modules/ext/edu.ucar/netcdf-4.2.20.jar"/>
+        <file crc="1827870201" name="modules/ext/edu.ucar/unidataCommon-4.2.20.jar"/>
+        <file crc="3771856038" name="modules/ext/net.jcip/jcip-annotations-1.0.jar"/>
+        <file crc="3433447400" name="modules/ext/net.sourceforge.f2j/arpack_combined_all-0.1.jar"/>
+        <file crc="1104195755" name="modules/org-dj-DJMatrix.jar"/>
+    </module_version>
+</module>

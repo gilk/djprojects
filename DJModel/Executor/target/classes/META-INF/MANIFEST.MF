@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Localizing-Bundle: org/dj/executor/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+OpenIDE-Module-Implementation-Version: 1.0-20121022
+OpenIDE-Module-Build-Version: 201210220831
+OpenIDE-Module: org.dj.Executor
+OpenIDE-Module-Public-Packages: org.dj.executor.api.*
+OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
+OpenIDE-Module-Display-Category: org.dj
+OpenIDE-Module-Name: Executor
+OpenIDE-Module-Short-Description: <undefined>
+OpenIDE-Module-Long-Description: <undefined>
+OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
+ n/1 > 1.14.1, org.dj.Remote > 1.0, org.dj.DomainModel > 1.0, org.netb
+ eans.api.progress/1 > 1.28.1, org.dj.FileUtilities > 1.0, org.openide
+ .util.lookup > 8.15.1, javolution > 5.5.1, com.jcraft.jsch > 0.1.45, 
+ org.dj.Filter > 1.0, org.dj.IDGenerator > 1.0, org.dj.Listener > 1.0,
+  org.dj.Parameter > 1.0, com.jcraft.jzlib > 1.0.7, org.openide.awt > 
+ 7.46.1, org.openide.filesystems > 7.62.1, org.openide.modules > 7.32.
+ 1, org.openide.util > 8.25.1, org.dj.Property > 1.0
+

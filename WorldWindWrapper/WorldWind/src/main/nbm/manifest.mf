@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Install: org/dj/worldwind/Installer.class
+OpenIDE-Module-Localizing-Bundle: org/dj/worldwind/Bundle.properties

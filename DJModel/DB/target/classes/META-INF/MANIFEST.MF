@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Install: org/dj/db/Installer.class
+OpenIDE-Module-Localizing-Bundle: org/dj/db/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+OpenIDE-Module-Implementation-Version: 1.0-20121022
+OpenIDE-Module-Build-Version: 201210221205
+OpenIDE-Module: org.dj.DB
+OpenIDE-Module-Public-Packages: org.dj.db.api.*, com.objectdb.**
+OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
+OpenIDE-Module-Display-Category: org.dj
+OpenIDE-Module-Name: DB
+OpenIDE-Module-Short-Description: <undefined>
+OpenIDE-Module-Long-Description: <undefined>
+OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
+ n/1 > 1.14.1, org.openide.util.lookup > 8.15.1, org.dj.DomainModel > 
+ 1.0, org.netbeans.api.progress/1 > 1.28.1, org.openide.modules > 7.32
+ .1, org.dj.Executor > 1.0, org.dj.FileUtilities > 1.0, org.dj.Filter 
+ > 1.0, org.dj.IDGenerator > 1.0, org.dj.Listener > 1.0, org.dj.Parame
+ ter > 1.0, com.objectdb > 2.4.4, org.dj.Property > 1.0, org.dj.Remote
+  > 1.0, javolution > 5.5.1, org.openide.util > 8.25.1, com.google.gua
+ va > 13.0.1
+

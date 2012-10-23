@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.dj.Listener">
+    <module_version install_time="1350894668348" last="true" origin="installer" specification_version="1.0">
+        <file crc="1174357988" name="config/Modules/org-dj-Listener.xml"/>
+        <file crc="3017390844" name="modules/org-dj-Listener.jar"/>
+    </module_version>
+</module>
