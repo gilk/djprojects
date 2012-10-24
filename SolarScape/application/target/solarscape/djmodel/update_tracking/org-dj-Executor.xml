@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="org.dj.Executor">
-    <module_version install_time="1351002704591" last="true" origin="installer" specification_version="1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.dj.Executor">
+    <module_version install_time="1351041309984" last="true" origin="installer" specification_version="1.0">
         <file crc="1475308203" name="config/Modules/org-dj-Executor.xml"/>
         <file crc="3232601531" name="modules/org-dj-Executor.jar"/>
     </module_version>

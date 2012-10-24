@@ -61,7 +61,7 @@ public class SolarPlantManagerImpl extends DBObjectManagerAbstr<SolarPlant> impl
         addressSearchParams.add("city");
         addressSearchParams.add("state_province");
         addressSearchParams.add("country");
-        addressSearchParams.add("zipcode");
+        //addressSearchParams.add("zipcode");
 
     }
 

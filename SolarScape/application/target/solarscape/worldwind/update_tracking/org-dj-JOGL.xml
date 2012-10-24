@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="org.dj.JOGL">
-    <module_version install_time="1351002697961" last="true" origin="installer" specification_version="1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.dj.JOGL">
+    <module_version install_time="1351041304698" last="true" origin="installer" specification_version="1.0">
         <file crc="885727039" name="config/Modules/org-dj-JOGL.xml"/>
         <file crc="1285728250" name="modules/ext/fr.iscpif/jogl-1.0-SNAPSHOT.jar"/>
         <file crc="1093266141" name="modules/ext/org.processing/gluegen-rt-1.5.r0196.jar"/>

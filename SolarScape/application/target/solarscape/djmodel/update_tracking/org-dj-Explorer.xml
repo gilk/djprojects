@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="org.dj.Explorer">
-    <module_version install_time="1351002703560" last="true" origin="installer" specification_version="1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.dj.Explorer">
+    <module_version install_time="1351041309422" last="true" origin="installer" specification_version="1.0">
         <file crc="2959427048" name="config/Modules/org-dj-Explorer.xml"/>
         <file crc="1287022513" name="modules/org-dj-Explorer.jar"/>
     </module_version>

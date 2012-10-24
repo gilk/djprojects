@@ -4,7 +4,7 @@ OpenIDE-Module-Localizing-Bundle: org/dj/solarscape/globe/Bundle.prope
 OpenIDE-Module-Requires: org.openide.windows.WindowManager
 OpenIDE-Module-Specification-Version: 1.0
 OpenIDE-Module-Implementation-Version: 1.0-20121023
-OpenIDE-Module-Build-Version: 201210231431
+OpenIDE-Module-Build-Version: 201210232343
 OpenIDE-Module: org.dj.SolarScape.Globe
 OpenIDE-Module-Public-Packages: -
 OpenIDE-Module-Display-Category: org.dj

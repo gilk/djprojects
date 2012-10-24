@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module codename="org.dj.SolarScape.Data">
-    <module_version install_time="1351003959581" last="true" origin="installer" specification_version="1.0">
+    <module_version install_time="1351041309517" last="true" origin="installer" specification_version="1.0">
         <file crc="3873012320" name="config/Modules/org-dj-SolarScape-Data.xml"/>
-        <file crc="1585891934" name="modules/org-dj-SolarScape-Data.jar"/>
+        <file crc="939388999" name="modules/org-dj-SolarScape-Data.jar"/>
+        <file crc="353207803" name="update_tracking/org-dj-SolarScape-Data.xml"/>
     </module_version>
 </module>

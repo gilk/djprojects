@@ -3,7 +3,7 @@ OpenIDE-Module-Localizing-Bundle: org/dj/solarscape/render/Bundle.prop
  erties
 OpenIDE-Module-Specification-Version: 1.0
 OpenIDE-Module-Implementation-Version: 1.0-20121023
-OpenIDE-Module-Build-Version: 201210231431
+OpenIDE-Module-Build-Version: 201210232342
 OpenIDE-Module: org.dj.SolarScape.Render
 OpenIDE-Module-Public-Packages: -
 OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1

@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="org.dj.WorldWind">
-    <module_version install_time="1351002693231" last="true" origin="installer" specification_version="1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.dj.WorldWind">
+    <module_version install_time="1351041304079" last="true" origin="installer" specification_version="1.0">
         <file crc="1039291161" name="config/Modules/org-dj-WorldWind.xml"/>
         <file crc="169192038" name="modules/ext/gov.nasa/WorldWindX-1.4.jar"/>
         <file crc="1638739786" name="modules/ext/gov.nasa/worldwind-1.4.jar"/>

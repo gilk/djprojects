@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="org.dj.Icon">
-    <module_version install_time="1351002704819" last="true" origin="installer" specification_version="1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.dj.Icon">
+    <module_version install_time="1351041310173" last="true" origin="installer" specification_version="1.0">
         <file crc="2618168284" name="config/Modules/org-dj-Icon.xml"/>
         <file crc="2039634319" name="modules/org-dj-Icon.jar"/>
     </module_version>

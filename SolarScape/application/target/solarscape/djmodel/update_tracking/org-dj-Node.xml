@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module codename="org.dj.Node">
-    <module_version install_time="1351003959464" last="true" origin="installer" specification_version="1.0">
+    <module_version install_time="1351041309050" last="true" origin="installer" specification_version="1.0">
         <file crc="3813468533" name="config/Modules/org-dj-Node.xml"/>
         <file crc="1864233605" name="modules/org-dj-Node.jar"/>
     </module_version>
