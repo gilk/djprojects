@@ -7,7 +7,10 @@
     <packaging>pom</packaging>
 
     <name>DJProjects</name>
-
+    <ciManagement>
+        <system>hudson</system>
+        <url>http://54.228.218.24:8080/jenkins/job/DJProjects/</url>
+    </ciManagement>
     <modules>
     <module>Applications</module>
     <module>Libraries</module>
@@ -125,6 +128,7 @@
         <maven.jar.version>2.4</maven.jar.version>
         <distbase.url>http://danieljabry.com/update-center/${brandingToken}</distbase.url>
         <distbase.dir>/update-center/${brandingToken}</distbase.dir>
+        <installers.dir>/update-center/${brandingToken}</installers.dir>
         <github.global.server>github</github.global.server>
     </properties>
     <build>
