@@ -102,12 +102,12 @@
         <repository>
             <id>central</id>
             <name>dj2-releases</name>
-            <url>http://ec2-176-34-92-210.eu-west-1.compute.amazonaws.com:8080/artifactory/ext-release-local</url>
+            <url>http://54.228.218.24:8080/artifactory/ext-release-local</url>
         </repository>
         <snapshotRepository>
             <id>snapshots</id>
             <name>dj2-snapshots</name>
-            <url>http://ec2-176-34-92-210.eu-west-1.compute.amazonaws.com:8080/artifactory/ext-snapshot-local</url>
+            <url>http://54.228.218.24:8080/artifactory/ext-snapshot-local</url>
         </snapshotRepository>
 
 
