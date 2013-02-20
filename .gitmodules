@@ -1,0 +1,6 @@
+[submodule "Libraries"]
+	path = Libraries
+	url = git://github.com/djabry/libraries.git
+[submodule "Applications"]
+	path = Applications
+	url = git://github.com/djabry/applications.git

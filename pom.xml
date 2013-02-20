@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.dj</groupId>
+    <artifactId>DJProjects</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>DJProjects</name>
+
+    <modules>
+    <module>Applications</module>
+    <module>Libraries</module>
+  </modules>
+    
+    
+<!--    <scm>
+        <connection>scm:git:https://github.com/djabry/djprojects.git</connection>
+        <developerConnection>scm:git:https://github.com/djabry/djprojects.git</developerConnection>
+    </scm>-->
+    
+
+    <dependencyManagement>
+        <dependencies>
+            
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.dj</groupId>
+                <artifactId>jogampwrapper</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+             <dependency>
+                <groupId>org.dj</groupId>
+                <artifactId>gdalwrapper</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.dj</groupId>
+                <artifactId>javolutionwrapper</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.dj</groupId>
+                <artifactId>objectdbwrapper</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <scope>provided</scope>
+                <groupId>org.dj</groupId>
+                <artifactId>lombokpgwrapper</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.dj</groupId>
+                <artifactId>guavawrapper</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.netbeans.api</groupId>
+                <artifactId>org-openide-util-lookup</artifactId>
+                <version>${netbeans.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.netbeans.api</groupId>
+                <artifactId>org-openide-util</artifactId>
+                <version>${netbeans.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.netbeans.api</groupId>
+                <artifactId>org-openide-explorer</artifactId>
+                <version>${netbeans.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.dj</groupId>
+                <artifactId>pluginwrapper</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+    <distributionManagement>
+        <!--        <repository>
+            <id>danieljabry-ftp-repo</id>
+            <url>ftp://ftp.danieljabry.com/maven2/repo</url>
+        </repository>
+        <snapshotRepository>
+            <id>danieljabry-ftp-snapshots</id>
+            <url>ftp://ftp.danieljabry.com/maven2/snapshots</url>
+        </snapshotRepository>-->
+<!--        <repository>
+            <id>internal.repo</id>
+            <name>Temporary Staging Repository</name>
+            <url>file://${project.build.directory}/mvn-repo</url>
+        </repository>-->
+        
+        
+        <repository>
+            <id>central</id>
+            <name>dj2-releases</name>
+            <url>http://ec2-176-34-92-210.eu-west-1.compute.amazonaws.com:8080/artifactory/ext-release-local</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>dj2-snapshots</name>
+            <url>http://ec2-176-34-92-210.eu-west-1.compute.amazonaws.com:8080/artifactory/ext-snapshot-local</url>
+        </snapshotRepository>
+
+
+        <!--        <site>
+            <id>solarscape.site</id>
+            <name>Solarscape Website</name>
+            <url>scp://danieljabry.com/projects/solarscape/</url>
+        </site>-->
+    </distributionManagement>
+
+    <properties>
+        <netbeans.version>RELEASE73-BETA2</netbeans.version>
+        <junit.version>4.10</junit.version>
+        <maven.compiler.version>2.5.1</maven.compiler.version>
+        <maven.jar.version>2.4</maven.jar.version>
+        <distbase.url>http://danieljabry.com/update-center/${brandingToken}</distbase.url>
+        <distbase.dir>/update-center/${brandingToken}</distbase.dir>
+        <github.global.server>github</github.global.server>
+    </properties>
+    <build>
+        <extensions>
+            <extension>
+               <groupId>org.apache.maven.wagon</groupId>
+                <artifactId>wagon-ftp</artifactId>
+                <version>2.2</version>
+            </extension>
+        </extensions>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>nbm-maven-plugin</artifactId>
+                    <version>3.9</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>wagon-maven-plugin</artifactId>
+                    <version>1.0-beta-4</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-install-plugin</artifactId>
+                    <version>2.4</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-resources-plugin</artifactId>
+                    <version>2.6</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>2.13</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-deploy-plugin</artifactId>
+                    <version>2.7</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>2.5.1</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-jar-plugin</artifactId>
+                    <version>2.4</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-release-plugin</artifactId>
+                    <version>2.4</version>
+                </plugin> 
+            </plugins>
+
+        </pluginManagement>
+    </build>
+    
+    
+
+  <profiles>
+    <profile>
+      <id>Jenkins</id>
+      <activation>
+	<property>
+	  <name>env.JENKINS_HOME</name>
+<!--	  <value>Jenkins</value>  This is the value for that property that will activate the profile -->
+	</property>
+      </activation>
+      <properties>
+	<target.environment>ContinuousIntegration</target.environment>
+      </properties>
+    </profile>
+    <profile>
+      <id>Test</id>
+      <activation>
+	<property>
+	  <name>env</name>
+	  <value>Test</value>
+	</property>
+      </activation>
+      <properties>
+	<target.environment>Test</target.environment>
+      </properties>
+    </profile>
+    <profile>
+      <id>Acceptance</id>
+      <activation>
+	<property>
+	  <name>env</name>
+	  <value>Acceptance</value>
+	</property>
+      </activation>
+      <properties>
+	<target.environment>Acceptance</target.environment>
+      </properties>
+    </profile>
+    <profile>
+      <id>Production</id>
+      <activation>
+	<property>
+	  <name>env</name>
+	  <value>Jenkins</value>
+	</property>
+      </activation>
+      <properties>
+	<target.environment>Production</target.environment>
+      </properties>
+    </profile>
+        <profile>
+            <id>deployment</id>
+            <activation>
+                <property>
+                    <name>target.environment</name>
+                    <value>ContinuousIntegration</value>
+                </property>
+            </activation>
+            <properties>
+                <target.envieronment>ContinuousIntegration</target.envieronment>
+            </properties>
+        </profile>
+        <profile>
+            <id>update-version</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-release-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <goals>
+                                    <goal>update-versions</goal>
+                                </goals>
+                                <phase>validate</phase>
+                                <configuration>
+                                    <autoVersionSubmodules>true</autoVersionSubmodules>
+                                    <developmentVersion>1.0-SNAPSHOT</developmentVersion>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+
+
+        
+        <!--        <profile>
+            <id>updatesite</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>nbm-maven-plugin</artifactId>
+                        <version>${nbm.maven.version}</version>
+                        <executions>
+                            <execution>
+                                <id>site</id>
+                                <phase>package</phase>
+                                <goals>
+                                    <goal>autoupdate</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>wagon-maven-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <phase>install</phase>
+                                <id>upload-site-updates</id>
+                                <goals>
+                                    <goal>upload</goal>
+                                </goals>
+                                <configuration>
+                                    <fromDir>target/netbeans_site</fromDir>
+                                    <followSymLink>true</followSymLink>
+                                    <serverId>danieljabry-ftp-repo</serverId>
+                                    <url>ftp://ftp.danieljabry.com</url>
+                                    <toDir>${distbase.dir}</toDir>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>-->
+<!--        <profile>
+            <id>deployment</id>
+            
+            <build>
+                <pluginManagement>
+                    <plugins>
+                        <plugin>
+                            <groupId>org.codehaus.mojo</groupId>
+                            <artifactId>nbm-maven-plugin</artifactId>
+                            <version>3.9</version>
+                        </plugin>
+                    </plugins>
+                </pluginManagement>
+                <plugins>
+                    <plugin>
+                        <groupId>com.github.github</groupId>
+                        <artifactId>site-maven-plugin</artifactId>
+                        <version>0.7</version>
+                        <configuration>
+                            <message>Maven artifacts for ${project.version}</message>   git commit message 
+                            <noJekyll>true</noJekyll>                                   disable webpage processing 
+                            <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>  matches distribution management repository url above 
+                            <branch>refs/heads/mvn-repo</branch>                        remote branch name 
+                            <includes>
+                                <include>**/*</include>
+                            </includes>
+                            <merge>true</merge>
+                            <repositoryName>djprojects</repositoryName>       github repo name 
+                            <repositoryOwner>djabry</repositoryOwner>     github username  
+                        </configuration>
+                        <executions>
+                             run site-maven-plugin's 'site' target as part of the build's normal 'deploy' phase 
+                            <execution>
+                                <goals>
+                                    <goal>site</goal>
+                                </goals>
+                                <phase>deploy</phase>
+                            </execution>
+                        </executions>
+                    </plugin>
+                                        <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>nbm-maven-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>extra</id>
+                                <goals>
+                                    <goal>autoupdate</goal>
+                                                                        <goal>webstart-app</goal>
+                                    <goal>build-installers</goal>
+                                </goals>
+                                <configuration>
+                                    <distBase>danieljabry-ftp-repo::default::${distbase.url}</distBase> 
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                                        <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>wagon-maven-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>upload-installers</id>
+                                <phase>deploy</phase>
+                                <goals>
+                                    <goal>upload</goal>
+                                </goals>
+                                <configuration>
+                                    <fromDir>target/netbeans_site</fromDir>
+                                    <followSymLink>true</followSymLink>
+                                    <optimize>true</optimize>
+                                    <serverId>danieljabry-ftp-repo</serverId>
+                                    <url>ftp://ftp.danieljabry.com</url>
+                                    <toDir>${distbase.dir}</toDir>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>-->
+
+    </profiles>
+           
+
+</project>
