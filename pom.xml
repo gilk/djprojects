@@ -128,7 +128,7 @@
         <maven.jar.version>2.4</maven.jar.version>
         <distbase.url>http://danieljabry.com/update-center/${brandingToken}</distbase.url>
         <distbase.dir>/update-center/${brandingToken}</distbase.dir>
-        <installers.dir>/update-center/${brandingToken}</installers.dir>
+        <installers.dir>/installers/${brandingToken}</installers.dir>
         <github.global.server>github</github.global.server>
     </properties>
     <build>
