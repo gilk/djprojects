@@ -122,7 +122,7 @@
     </distributionManagement>
 
     <properties>
-        <netbeans.version>RELEASE73-BETA2</netbeans.version>
+        <netbeans.version>RELEASE73</netbeans.version>
         <junit.version>4.10</junit.version>
         <maven.compiler.version>2.5.1</maven.compiler.version>
         <maven.jar.version>2.4</maven.jar.version>
