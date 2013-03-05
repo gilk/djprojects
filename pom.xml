@@ -9,7 +9,7 @@
     <name>DJProjects</name>
     <ciManagement>
         <system>hudson</system>
-        <url>http://54.228.218.24:8080/jenkins/job/DJProjects/</url>
+        <url>http://dev.danieljabry.com/jenkins/job/DJProjects/</url>
     </ciManagement>
     <modules>
     <module>Applications</module>
@@ -105,12 +105,12 @@
         <repository>
             <id>central</id>
             <name>dj2-releases</name>
-            <url>http://54.228.218.24:8080/artifactory/ext-release-local</url>
+            <url>http://dev.danieljabry.com/artifactory/ext-release-local</url>
         </repository>
         <snapshotRepository>
             <id>snapshots</id>
             <name>dj2-snapshots</name>
-            <url>http://54.228.218.24:8080/artifactory/ext-snapshot-local</url>
+            <url>http://dev.danieljabry.com/artifactory/ext-snapshot-local</url>
         </snapshotRepository>
 
 
