@@ -23,6 +23,7 @@
     </scm>-->
     
 
+
     <dependencyManagement>
         <dependencies>
             
@@ -130,6 +131,7 @@
         <distbase.dir>/update-center/${brandingToken}</distbase.dir>
         <installers.dir>/installers/${brandingToken}</installers.dir>
         <github.global.server>github</github.global.server>
+
     </properties>
     <build>
         <extensions>
@@ -141,6 +143,7 @@
         </extensions>
         <pluginManagement>
             <plugins>
+                
                 <plugin>
                     <groupId>org.codehaus.mojo</groupId>
                     <artifactId>nbm-maven-plugin</artifactId>
